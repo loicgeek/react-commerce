@@ -1,0 +1,19 @@
+.sign-in {
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        margin: 10px 0;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .custom-button:last-child {
+            margin-left: 5px;
+        }
+    }
+
+}
