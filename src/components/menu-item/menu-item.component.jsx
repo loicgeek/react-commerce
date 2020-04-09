@@ -12,7 +12,7 @@ function MenuItem({ title, imageUrl, size, linkUrl, history, match }) {
     >
       <div
         style={{
-          backgroundImage: `url(${imageUrl})`
+          backgroundImage: `url(${imageUrl})`,
         }}
         className="background-image"
       ></div>
